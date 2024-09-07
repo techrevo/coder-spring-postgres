@@ -46,6 +46,7 @@ jobs:
           else
             echo "Changes detected."
             echo "CHANGED=true" >> $GITHUB_ENV
+          fi
 
       # Step 5: Commit and push the changes if there are any
       - name: Commit and push changes
