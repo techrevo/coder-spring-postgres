@@ -1,11 +1,3 @@
----
-display_name: Spring Boot 3 & PostgreSQL
-description: Coder workspace with a Spring Boot starting template and PostgreSQL database
-maintainer_github: techrevo
-verified: true
-tags: [spring, spring-boot, template, java, postgres, web, jpa, docker]
----
-
 # Coder workspace for Spring application with PostgreSQL database
 
 Provision a full Spring Boot template with Web & Jpa dependencies and an auto-configured PostgreSQL database. All running in Docker containers.
