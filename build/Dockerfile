@@ -36,7 +36,7 @@ RUN curl -fSsL https://start.spring.io/starter.zip \
 
 WORKDIR /home/${USER}/${APP_NAME}
 
-RUN echo "spring.datasource.url=jdbc:postgresql://${DATABASE_HOST}-db:5432/${APP_NAME}" >> src/main/resources/application.properties && \
+RUN echo "spring.datasource.url=jdbc:postgresql://${DATABASE_HOST}:5432/${APP_NAME}" >> src/main/resources/application.properties && \
     echo "spring.datasource.username=${USER}" >> src/main/resources/application.properties && \
     echo "spring.datasource.password=${DATABASE_PASS}" >> src/main/resources/application.properties && \
     echo "spring.jpa.database=postgresql" >> src/main/resources/application.properties && \
